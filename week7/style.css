@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+#main{
+
+    margin-top: 50px;
+    font-size: 50px;
+    color: blue;
+    border: 4px dashed black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    /* height: 100px; */
+    /* width: 600px; */
+}
+
+#reverse{
+    margin-top: 50px;
+    font-size: 50px;
+    color: rgb(255, 0, 0);
+    border: 4px dashed black;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+   }
