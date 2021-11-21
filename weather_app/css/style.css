@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background-color: rgb(252, 241, 85);
+}
+#app {
+    margin: 200px 350px ;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    border-style: outset;
+    border: 20px outset rgb(84, 122, 6);
+}
+
+div{
+    background-color: rgb(236, 235, 235);
+}
+
+#app_name {
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    margin: 30px;
+    border:  10px outset purple;
+    background-color: rgb(0, 0, 192);
+    padding: 10px 10px;
+}
+
+button {
+    color: rgb(81, 255, 0);
+    background-color: rgb(14, 12, 12);
+    border: 10px outset orange;
+    border-radius: 30px;
+    width: 150px;
+    font-size: 50px;
+    margin: 30px;
+
+}
+
+#choose {
+    color: rgb(255, 0, 0);
+    font-size: 50px;
+    margin: 30px;
+    border: 20px inset;
+    background-color: rgb(123, 240, 255);
+    font-weight: bold;
+    padding: 10px 10px;
+    justify-content: center;
+    text-align: center;
+    text-decoration: none;
+
+}
+
+#temp {color: rgb(255, 117, 5);
+    font-size: 50px;
+    margin: 30px;}
+
+#weather {
+    color: rgb(255, 0, 170);
+    font-size: 50px;
+    margin: 30px;
+}
+
+#name {
+    color: rgb(89, 0, 255);
+    font-size: 50px;
+    margin: 30px;
+}
+
+#temp_min{
+    color: rgb(22, 158, 4);
+    font-size: 50px;
+    margin: 30px;
+}
+#temp_max{
+    color: rgb(22, 158, 4);
+    font-size: 50px;
+    margin: 30px;
+}
+
+
+.temp_min_max{
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+    align-items: center;
+    text-align: center;
+}

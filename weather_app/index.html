@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Weather App</title>
+    <link rel="stylesheet" href="/css/style.css" />
+  </head>
+  <body>
+    <div id="app">
+      <h1 id="app_name">Weather App</h1>
+
+      <!-- <form action=""> -->
+
+      <select id="choose">
+        <option value="delhi">Delhi</option>
+        <option value="mumbai">Mumbai</option>
+        <option value="pune">Pune</option>
+        <option value="california">California</option>
+        <option value="Los Angeles">Los Angeles</option>
+        <option value="wrong">wrong</option>
+      </select>
+      <!-- <input type="submit" value="Submit"> -->
+      <!-- </form> -->
+      <br />
+      <button onclick="weather()">Click</button>
+
+      <div class="temp_min_max">
+        <h2 id="temp_min"></h2>
+        <h2 id="temp_max"></h2>
+      </div>
+      <br />
+
+      <h2 id="temp"></h2><br>
+
+      <h2 id="weather"></h2><br>
+
+      <h2 id="name"></h2>
+    </div>
+
+    <script src="/js/app.js"></script>
+  </body>
+</html>
